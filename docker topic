@@ -1,0 +1,58 @@
+What is Docker?
+Docker is a containerization tool that allows you to package an application with all its dependencies into a single unit called a container. 
+This ensures that the application runs the same way on any machine—development, testing, or production—without environment issues.
+
+What is Dockerfile?
+A Dockerfile is a script containing instructions to build a Docker image automatically.
+
+What is Docker Hub?
+Docker Hub is a cloud-based registry where you can store, share, and download Docker images.
+
+What is a multi-stage build in Docker?
+It allows you to use multiple FROM statements in one Dockerfile to reduce image size and improve performance.
+
+What is a volume in Docker?
+Volumes are used to persist data even if the container is deleted.
+
+Docker Engine and Storage:
+Docker Engine, also known as Docker Daemon, is the core component of the Docker platform responsible for running and managing Docker containers.
+Explore this section to get all details about Docker Engine.
+
+Docker Hub:
+Docker Hub is Docker’s official cloud-based registry where developers store, share, and download Docker images.
+
+Docker Networking:
+Docker Networking refers to the set of mechanisms and technologies Docker provides for communication between Docker containers, as well as between containers and the outside world.
+
+Docker Swarm:
+Docker Swarm is Docker’s native tool for clustering and orchestrating multiple containers. It lets you group several Docker hosts (servers) into a single cluster, called a swarm, and run containers across them as if they were one system.
+
+Docker Compose:
+Docker Compose is a tool that lets you run and manage multiple Docker containers together as a single application. Instead of starting each container manually, you define all services (like app, database, cache) in a docker-compose.yml file with their configurations.
+
+
+🔍 Why Docker is used? (Key Points)
+1)To avoid “it works on my machine” problems
+2)To make applications portable across environments
+3)To deploy apps faster
+4)To isolate applications
+5)To reduce infrastructure costs
+6)To scale easily with microservices
+
+
+📦 What is a Docker Container?
+A container is a lightweight, isolated environment that has everything the app needs: code, runtime, libraries, dependencies.
+
+
+🛠️ What is a Docker Image?
+An image is a blueprint/template used to create containers.
+(Just like a class → object in programming)
+
+
+🔗 Docker vs Virtual Machine
+Docker	Virtual Machine
+Lightweight	Heavy
+Starts in seconds	Takes minutes
+Shares OS kernel	Has full OS
+Uses fewer resources	More resource usage
+Faster deployment	Slower
